@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67195325-20ad-4d3f-a9b8-f801f0ca9d98" name="Changes" comment="Pls virk">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankaccounttest0/SalaryAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bankaccounttest0/SalaryAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <updated>1675158035273</updated>
       <workItem from="1675158037079" duration="1078000" />
       <workItem from="1675159619035" duration="5146000" />
-      <workItem from="1675165088308" duration="9366000" />
+      <workItem from="1675165088308" duration="9685000" />
     </task>
     <task id="LOCAL-00001" summary="Pls virk">
       <created>1675240588740</created>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675240588740</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pls virk">
+      <created>1675241998546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675241998546</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

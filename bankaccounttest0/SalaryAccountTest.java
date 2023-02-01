@@ -1,3 +1,5 @@
+import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -15,6 +17,11 @@ class SalaryAccountTest {
         assertEquals(acc,customer1.accounts.get(0)); //Has account been added to list
     }
 
+    @BeforeEach
+    void beforeeach(){
+        SalaryAccount acc = new SalaryAccount(0,null);
+        acc.balance = 0;
+    }
 
 
     @Test
