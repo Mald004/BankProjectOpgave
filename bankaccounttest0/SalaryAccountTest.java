@@ -8,7 +8,7 @@ class SalaryAccountTest {
 
     @Test
     void setOwner() {
-        Customer customer1 = new Customer();
+        Customer customer1 = new Customer("Malde", Status.ADULT,1);
         Status status = Status.ADULT;
         customer1.setStatus(status);
         BankAccount acc = new SalaryAccount(3000,null);
