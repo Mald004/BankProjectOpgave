@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.NoSuchElementException;
 
 public class Customer {
@@ -6,14 +8,19 @@ public class Customer {
     private String name;
     private Status status;
     private int id;
-    private ArrayList<BankAccount> accounts;
+    private ArrayList<BankAccount> accounts = new ArrayList<>();
+
+    HashSet<Customer> accountsHashSet = new HashSet<Customer>();
+    HashMap<Customer, SalaryAccount> accountsHashMap = new HashMap();
+
 
     public Customer(String name, Status status, int id) {
         this.name = name;
         this.status = status;
         this.id = id;
-        accounts = new ArrayList<>();
+
     }
+
 
     void addAccount(BankAccount account){
         accounts.add(account);

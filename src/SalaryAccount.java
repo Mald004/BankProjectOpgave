@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class SalaryAccount extends BankAccount{
 
     private double creditlimit;

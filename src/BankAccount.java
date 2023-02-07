@@ -7,6 +7,13 @@ abstract class BankAccount   {
         this.balance = balance;
         this.owner = owner;
     }
+    public  void balancef(double balance){
+        this.balance = balance;
+    }
+    public String ownerf(Customer owner){
+        this.owner = owner;
+        return null;
+    }
 
     abstract void setOwner(Customer owner);
     abstract boolean withdraw(double amount);
